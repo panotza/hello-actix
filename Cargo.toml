@@ -1,0 +1,10 @@
+[package]
+name = "actix"
+version = "0.1.0"
+authors = ["panotza <panotza_ja@hotmail.com>"]
+
+[dependencies]
+actix-web = { git = "https://github.com/actix/actix-web" }
+
+[[bin]]
+name = "actix"
